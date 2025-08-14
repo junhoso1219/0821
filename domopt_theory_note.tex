@@ -1,0 +1,29 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,bm,mathtools,enumitem}
+\renewcommand{\baselinestretch}{1.05}
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}
+\begin{document}\small
+\begin{center}
+{\Large \textbf{Local SNR thresholds for Dom-SGD: statements \& proofs (clean)}}\\[2mm]
+\end{center}
+\paragraph{Setup.} $L\in C^2$, dominant subspace $S$ (projector $P_S$), mini-batch $g=\nabla L+\xi$ with $\mathbb E[\xi]=0$, $\mathrm{Cov}(\xi)=\Sigma$. Dom-SGD: $\theta^+=\theta-\eta P_S g$. Weighted Hessian average
+$\bar H(u)=2\!\int_0^1(1-t)H(\theta-t\eta u)\,dt$. Assume $m_S P_S\preceq P_S\bar H P_S\preceq L_S P_S$ a.s.
+\begin{theorem}[Two-sided bound]
+$\left(-\eta+\frac{\eta^2}{2}m_S\right)\|P_S\nabla L\|^2+\frac{\eta^2}{2}m_S\,\mathrm{tr}(P_S\Sigma)\le
+\mathbb E[\Delta L]\le
+\left(-\eta+\frac{\eta^2}{2}L_S\right)\|P_S\nabla L\|^2+\frac{\eta^2}{2}L_S\,\mathrm{tr}(P_S\Sigma)$.
+\end{theorem}
+\begin{corollary}[Local SNR thresholds]
+If $\eta m_S<2$ and $\frac{\|P_S\nabla L\|^2}{\mathrm{tr}(P_S\Sigma)}\le\frac{\eta m_S}{2-\eta m_S}$ then $\mathbb E[\Delta L]\ge0$.
+If $\eta L_S<2$ and $\frac{\|P_S\nabla L\|^2}{\mathrm{tr}(P_S\Sigma)}\ge\frac{\eta L_S}{2-\eta L_S}$ then $\mathbb E[\Delta L]\le0$.
+\end{corollary}
+\begin{corollary}[Quadratic valley: exact threshold]
+With $H=\mathrm{diag}(\mu,\lambda)$, $m_S=L_S=\mu$: $\sigma_S^2\ge \frac{2-\eta\mu}{\eta}\mu s_0^2\iff \mathbb E[\Delta L]\ge0$.
+\end{corollary}
+\paragraph{Subspace robustness (safe bound).} With block lower bounds $P_S\bar H P_S\succeq\mu_S P_S$, $P_B\bar H P_B\succeq\mu_B P_B$ and $\gamma=\|P_S\bar H P_B\|_2$, any unit $v\in\widehat S$ satisfies
+$v^\top\bar H v\ge \mu_B+(\mu_S-\mu_B)\|P_S v\|^2-2\gamma\|P_S v\|\,\|P_B v\|$, hence
+$v^\top\bar H v\ge \mu_B+(\mu_S-\mu_B)\cos^2\varepsilon-\gamma\cdot\min\{\sin(2\varepsilon),1\}$.
+Use $m_S\mapsto \mu_{\mathrm{eff}}(\varepsilon,\gamma)$ in the thresholds.
+\end{document}
