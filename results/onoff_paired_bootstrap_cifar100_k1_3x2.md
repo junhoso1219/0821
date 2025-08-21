@@ -1,11 +1,3 @@
-### On−Off 페어드 부트스트랩 (hold‑out, normAUPRC)
-
-- 페어 수: 3
-- on 평균: 0.1043, off 평균: 0.0584
-- on−off 평균차: +0.0459 (95% CI [-0.0738, +0.2058])
-
-| seed | on normAUPRC | off normAUPRC | diff(on−off) | on dir | off dir |
-|---:|---:|---:|---:|---|---|
-| 1001 | 0.0479 | 0.0421 | +0.0057 | results/20250819-151118 | results/20250819-161835 |
-| 2002 | 0.1547 | -0.0511 | +0.2058 | results/20250819-153348 | results/20250819-164214 |
-| 3003 | 0.1104 | 0.1841 | -0.0738 | results/20250819-155658 | results/20250819-170444 |
+version https://git-lfs.github.com/spec/v1
+oid sha256:f4b090a10a6a33eae27fc10361097360f5b3d684ad13ae3d401fa63d7b434076
+size 553

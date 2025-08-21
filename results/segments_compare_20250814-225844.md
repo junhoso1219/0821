@@ -1,8 +1,3 @@
-### Segments base vs eff threshold for 20250814-225844
-
-| segment | p | PR(eff) | PR(base) | norm(eff) | norm(base) |
-|---|---:|---:|---:|---:|---:|
-| 0-120 | 0.300 | 0.3455 | 0.4668 | 0.0650 | 0.2383 |
-| 120-240 | 0.214 | 0.3061 | 0.3061 | 0.1168 | 0.1168 |
-| 240-400 | 0.269 | 0.3271 | 0.3271 | 0.0797 | 0.0797 |
-| 400-600 | 0.210 | 0.2819 | 0.2819 | 0.0910 | 0.0910 |
+version https://git-lfs.github.com/spec/v1
+oid sha256:5889bc60756ff22bb9eaba9ffc6dc2c059526102035e5db851ea7eaf2f9ba6c6
+size 371

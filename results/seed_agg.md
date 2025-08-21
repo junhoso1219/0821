@@ -1,6 +1,3 @@
-### Seed aggregate (lr=0.075, steps=240)
-
-| split | normAUPRC mean | 95% CI | n |
-|---|---:|:---:|---:|
-| full | 0.0856 | [-0.0007, 0.1525] | 3 |
-| holdout | 0.0886 | [0.0235, 0.1364] | 3 |
+version https://git-lfs.github.com/spec/v1
+oid sha256:50646e8629435c7fe8dfb101614ff2f699403bd280015ff9e6ae7754e61ea780
+size 190

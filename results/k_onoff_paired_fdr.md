@@ -1,7 +1,3 @@
-### k × on/off paired bootstrap with BH-FDR (hold‑out, normAUPRC)
-
-| k | n_pairs | mean(on−off) | 95% CI | p_boot | q_BH |
-|---:|---:|---:|:---:|---:|---:|
-| 1 | 9 | +0.0323 | [-0.0132, +0.0847] | 0.1936 | 0.9330 |
-| 2 | 9 | -0.0586 | [-0.1114, +0.0034] | 0.0626 | 0.9330 |
-| 4 | 9 | +0.0004 | [-0.0723, +0.0611] | 0.9330 | 0.9330 |
+version https://git-lfs.github.com/spec/v1
+oid sha256:616cf4faffc162073dfe8ecf93307b46ac94e791068a6e6e73604f07cfb420b1
+size 338
