@@ -1,0 +1,2 @@
+variant=off
+seed=2002

@@ -1,0 +1,3 @@
+variant=off
+seed=5005
+k=2

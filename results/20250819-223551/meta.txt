@@ -1,0 +1,4 @@
+variant=off
+seed=2002
+k=1
+dataset=tinyimagenet

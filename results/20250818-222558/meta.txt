@@ -1,0 +1,3 @@
+variant=off
+seed=7007
+k=2

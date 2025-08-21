@@ -1,0 +1,3 @@
+variant=off
+seed=2002
+k=4

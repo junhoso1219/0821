@@ -1,0 +1,4 @@
+step=0 seed=7007 dataset=cifar100 exception on gamma_power: RuntimeError('element 0 of tensors does not require grad and does not have a grad_fn')
+step=60 seed=7007 dataset=cifar100 exception on gamma_power: RuntimeError('element 0 of tensors does not require grad and does not have a grad_fn')
+step=120 seed=7007 dataset=cifar100 exception on gamma_power: RuntimeError('element 0 of tensors does not require grad and does not have a grad_fn')
+step=180 seed=7007 dataset=cifar100 exception on gamma_power: RuntimeError('element 0 of tensors does not require grad and does not have a grad_fn')

@@ -1,0 +1,6 @@
+variant=on
+seed=5005
+k=1
+dataset=cifar100
+gamma_iters=20
+gamma_freq=60

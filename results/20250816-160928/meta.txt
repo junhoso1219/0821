@@ -1,0 +1,3 @@
+variant=on
+seed=3003
+gamma_iters=40

@@ -1,0 +1,1 @@
+step,epoch,batch,loss,acc,r,r_th,r_th_eff,mu,ps_grad_sq,tr_ps_sigma,deltaL_dom,deltaL_bulk,deltaL_full,lambda_max,two_over_lr,trigger,cstar,mask_applicable

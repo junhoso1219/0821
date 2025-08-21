@@ -1,0 +1,29 @@
+{
+  "cm_at_c1": {
+    "TP": 0,
+    "TN": 0,
+    "FP": 0,
+    "FN": 0,
+    "precision": 0.0,
+    "recall": 0.0,
+    "accuracy": 0.0,
+    "F1": 0.0
+  },
+  "pr_auc": 0.0,
+  "roc_auc": 0.0,
+  "prevalence": NaN,
+  "normalized_auprc": NaN,
+  "c_grid": [
+    0.01,
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5,
+    0.75,
+    1.0
+  ]
+}

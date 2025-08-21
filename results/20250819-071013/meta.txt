@@ -1,0 +1,3 @@
+variant=off
+seed=8008
+k=4

@@ -1,0 +1,12 @@
+step=0 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=10 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=20 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=30 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=40 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=50 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=60 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=70 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=80 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=90 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=100 seed=3003 dataset=tinyimagenet exception on gamma_power
+step=110 seed=3003 dataset=tinyimagenet exception on gamma_power

@@ -1,0 +1,4 @@
+variant=off
+seed=5005
+k=1
+dataset=cifar100

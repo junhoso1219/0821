@@ -1,0 +1,4 @@
+variant=on
+seed=5005
+gamma_iters=20
+gamma_freq=60
