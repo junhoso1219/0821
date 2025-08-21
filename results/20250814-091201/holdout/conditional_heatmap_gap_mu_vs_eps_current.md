@@ -1,5 +1,3 @@
-### Conditional normAUPRC heatmap
-
-- X: gap_mu, Y: eps_current
-
-![heatmap](/home/elicer/project_0814_2/results/20250814-091201/holdout/conditional_heatmap_gap_mu_vs_eps_current.png)
+version https://git-lfs.github.com/spec/v1
+oid sha256:016087b194e3282603db48cb0b9dafbeef9c31049c722546d41d5cbf9cb08b35
+size 182

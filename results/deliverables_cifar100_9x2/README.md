@@ -1,1 +1,3 @@
-# CIFAR-100 9x2 Deliverables\n\n- experiment_report_20250814.md\n- executive_summary.md\n- onoff_paired_bootstrap_cifar100_k1_9x2.md\n- paired_block_tests_cifar100_k1_9x2.md\n- paired_block_perm_cifar100_k1_9x2.md\n- onoff_overview.md, k1_onoff_overview.md\n- baselines_compare_cifar100_9x2.md\n- holdout_summary.(md,csv)\n- crosswarm_cstar_cifar100_k1.md\n- gallery_cifar100_k1.md\n- calibration_summary_cifar100_k1.md\n- holdout_on/, holdout_off/ (최신 on/off 런 이미지·요약)\n
+version https://git-lfs.github.com/spec/v1
+oid sha256:1958cfd49bbfb5d1f50bde255ce247ab9f2ad35fd124b3a929d66c59c65afa99
+size 489

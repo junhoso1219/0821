@@ -1,17 +1,3 @@
-### Baselines compare (normAUPRC means, 6×2 matched)
-
-| score | on mean | off mean | on−off | n |
-|---|---:|---:|---:|---:|
-| z_eff | nan | nan | +nan | 0 |
-| eos_margin | nan | nan | +nan | 0 |
-| ps_grad | nan | nan | +nan | 0 |
-| r_only | nan | nan | +nan | 0 |
-| lam_max | nan | nan | +nan | 0 |
-| grad_norm | nan | nan | +nan | 0 |
-| r_full | nan | nan | +nan | 0 |
-| sam1_full | nan | nan | +nan | 0 |
-
----
-
-### Per-seed values (normAUPRC)
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:41ea02da0c6d26f7a7bbbc43ef2eb40f0d328efebb5f025d1c2f4459e53cad6c
+size 449

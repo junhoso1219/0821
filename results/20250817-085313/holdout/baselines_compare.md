@@ -1,12 +1,3 @@
-### Baselines comparison (hold-out)
-
-| score | AUPRC | normAUPRC |
-|---|---:|---:|
-| z_eff | 0.3328 | 0.0717 |
-| eos_margin | 0.3231 | 0.0582 |
-| ps_grad | 0.5298 | 0.3458 |
-| r_only | 0.3512 | 0.0973 |
-| lam_max | 0.3231 | 0.0582 |
-| grad_norm | nan | nan |
-| r_full | nan | nan |
-| sam1_full | 0.3655 | 0.1173 |
+version https://git-lfs.github.com/spec/v1
+oid sha256:8de47aab2df8e22c13c0e9855a80c09070684c8c07c36494e354a502ff5b9127
+size 313
