@@ -1,0 +1,26 @@
+# Data and cache
+data/
+**/data/
+*.zip
+*.tar.gz
+*.pt
+*.pth
+*.bin
+*.npy
+*.npz
+*.pkl
+*.ckpt
+*.onnx
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+results/**/*.png
+results/**/*.md
+results/**/*.json
+results/**/*.csv
+results/**/*.txt
+results/**/*.zip
+results/**/holdout/
+results/**/metrics.csv
+results/**/metrics_summary.json
+
